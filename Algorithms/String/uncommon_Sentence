@@ -1,0 +1,10 @@
+class Solution:
+    def uncommonFromSentences(self, s1: str, s2: str) -> List[str]:
+        s3 = s1 + " " + s2
+        s3 = s3.split()
+        my_list1 = []
+        for i in s3:
+            if s3.count(i) == 1:
+                my_list1.append(i)
+        return my_list1
+        
