@@ -3,3 +3,4 @@ math.ceil() = round up any way to integer # 3.1 to 4
 round() = round up the near if < 1 - 4 round down else > 5 - 9 round up
 string.title() = Upper every case in string such as hello new -> Hello New
 string.capitalize() = Upper just a single at first string such as hello new -> Hello new
+string.swapcase() = swap with upper to lower
